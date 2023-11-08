@@ -1,0 +1,179 @@
+@import url("https://dailynewsoftheworld.com/scalegoat/bit/cl/elmercurio/carmen/bitcodemethod/index_files/css2.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.twit {
+  font-family: "Roboto", sans-serif;
+  box-shadow: var(--box-shadow);
+  padding: 8px;
+  font-size: 1rem;
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 840px;
+  pointer-events: none;
+}
+
+.twit__body {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 0.5rem;
+  margin-top: 15px;
+}
+
+.twit__ava {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url("urn:scrapbook:download:error:https://6.itdigita1edge.life/lander/elindes_1685973542/img/twit.jpg");
+  background-size: contain;
+}
+.tw-off {
+  color: #59b8f5;
+  font-weight: 400;
+}
+
+.twit__ava1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url("urn:scrapbook:download:error:https://6.itdigita1edge.life/lander/elindes_1685973542/img/risto.webp");
+  background-size: contain;
+}
+
+.twit__ava2 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url("urn:scrapbook:download:error:https://6.itdigita1edge.life/lander/elindes_1685973542/img/maria.webp");
+  background-size: contain;
+}
+
+.twit__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 5px;
+}
+
+.twit__line-name {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+
+@media (max-width: 500px) {
+  .twit__line-name {
+    font-size: 12px;
+  }
+}
+
+.twit__name {
+  font-weight: 600;
+  color: #000;
+  margin: 0 !important;
+}
+
+.twit__icon {
+  max-width: 20px;
+  max-height: 20px;
+  vertical-align: middle;
+}
+
+.twit__icon img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.twit__address {
+  color: #5b5e6c;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.twit__share {
+  color: #5b5e6c;
+  font-weight: 400;
+}
+
+.twit__comment {
+  color: #5b5e6c;
+  font-weight: 400;
+}
+
+.twit__line-text {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.twit__line-date {
+  color: #5b5e6c;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.link {
+  color: #59b8f5;
+}
+
+.twit__line-like {
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  font-size: 14px;
+}
+
+.twit__line-like a span i {
+  margin-right: 0.5rem;
+}
+
+.twit__like {
+  color: #5b5e6c;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .twit {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .twit__line-like {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .twit__name {
+    font-size: 12px !important;
+    white-space: nowrap;
+  }
+  .twit__address {
+    font-size: 10px !important;
+    padding-top: 5px;
+  }
+  .twit__line-date {
+    font-size: 12px;
+    white-space: nowrap;
+    padding-top: 3px;
+  }
+  .twit__line-text {
+    font-size: 14px;
+  }
+  .twit__icon img {
+    width: 13px;
+  }
+}
